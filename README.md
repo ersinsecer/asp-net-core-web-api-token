@@ -9,3 +9,5 @@ Ayrıca login işlemi olacağı için Startup dosyası içeriside şifre ayarlam
 AuthController dosyası içerisinde login ve kullanıcı kayıt işlemleri yapıldı. Login işlemi başarılı olduktan sonra token ayarlası yapıldı. 
 
 ViewModel klasörüne login ve register sınıfları eklendi. 
+
+Author1Controller [Authorize] ile yetkilendirilme yapıldı.  

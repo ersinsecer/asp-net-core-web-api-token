@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180518213740_initial.cs" />
+    <Compile Remove="Migrations\20180518213740_initial.Designer.cs" />
+    <Compile Remove="Migrations\20180518215318_initial.cs" />
+    <Compile Remove="Migrations\20180518215318_initial.Designer.cs" />
+    <Compile Remove="Migrations\20180518215843_initial1.cs" />
+    <Compile Remove="Migrations\20180518215843_initial1.Designer.cs" />
+    <Compile Remove="Migrations\20180518215957_initial.cs" />
+    <Compile Remove="Migrations\20180518215957_initial.Designer.cs" />
+    <Compile Remove="Migrations\20180803202213_initial.cs" />
+    <Compile Remove="Migrations\20180803202213_initial.Designer.cs" />
+    <Compile Remove="Repositories\DataAccessRepositories.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>

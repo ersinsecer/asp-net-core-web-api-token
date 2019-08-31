@@ -86,7 +86,7 @@ namespace WebApi_EFCore
             #endregion
 
             services.AddMvc()
-                .AddJsonOptions(options => // CamelCase Json çıktısı
+                .AddJsonOptions(options => // Json çıktısı
                 {
                     options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();
                 });
